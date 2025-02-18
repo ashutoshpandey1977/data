@@ -1,5 +1,5 @@
 # Overview
-This dataset contains extracted records for various entries, including essential details such as Country, Title, Link, Extracted Years, Verified People, Verified Organizations, Verified Locations, and content. The data has been verified against Wikidata to ensure accuracy and reliability.
+This dataset contains 1 million extracted records for various entries, including essential details such as Country, Title, Link, Extracted Years, Verified People, Verified Organizations, Verified Locations, and content. The data has been verified against Wikidata to ensure accuracy and reliability.
 
 # Columns
 The dataset includes the following columns:
