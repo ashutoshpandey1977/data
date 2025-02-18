@@ -24,6 +24,19 @@ The dataset includes the following columns:
 
 # File Format
 The dataset is stored in a spreadsheet CSV format for easy access and analysis.
+# Data Dictionary
+
+| Column Name            | Description                                                     | Data Type |
+|------------------------|-----------------------------------------------------------------|-----------|
+| **City**               | The city associated with the record                             | String    |
+| **Country**            | The country associated with the record                          | String    |
+| **Date**               | The specific date related to the entry                          | Date      |
+| **Organization**       | Organizations verified against Wikidata                         | String    |
+| **People**             | Individuals verified against Wikidata                           | String    |
+| **Year**               | The year the data was extracted                                 | Integer   |
+| **Link**               | URL link to the Wikipedia entry                                 | String    |
+| **Content**            | Additional content related to the record                        | String    |
+
 
 # Usage
 * This dataset can be utilized for various purposes, including:
