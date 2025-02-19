@@ -12,7 +12,7 @@ The dataset is stored in a spreadsheet CSV format for easy access and analysis.
 | Title               | String   | Title of the article or entity extracted from the data source. | Polish Open (tennis) |
 | Link                | String   | URL to the original article or webpage. | [Polish Open](https://en.wikipedia.org/wiki/Polish_Open_(tennis)) |
 | Extracted Years     | String   | Years extracted from the content, representing historical references. | 2011, 2018 |
-| People              | String   | Names of people| Sarla Bedi, Sheetal |
+| People              | String   | Names of people, enriched with Full Name,Birth Date,Nationality,Occupation,Notable Achievements, Summary.| Full Name: Sarla Bedi \| Birth Date: 1925-04-04T00:00:00Z \| Nationality: Canadian \| Occupation: Religious priestess of Arya Samaj \| Notable Achievements: Establishing Arya Samaj in Toronto, Canada \| Summary:  \|
 | Organization        | String   | Names of organizations mentioned, enriched with founding date, industry, headquarters, and key personnel. | BNP Paribas \| Founded: 1848 \| HQ: Paris \| Industry: Banking \| Key Personnel: Jean-Laurent Bonnafé |
 | Locations           | String    |Locations extracted from the content| Washington Gardens |
 | Coordinates         | String   | Latitude and longitude of the city, obtained from Wikidata or OpenStreetMap. | Latitude: 51.1282205, Longitude: 71.4306682 |
