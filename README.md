@@ -5,120 +5,19 @@ This dataset comprises comprehensive records that include detailed information a
 The dataset is stored in a spreadsheet CSV format for easy access and analysis.
 # Data Dictionary
 
-
-### Data Dictionary for Locations
-
-| Column Name            | Description                                                                                             | Data Type | Example                                                    |
-|------------------------|---------------------------------------------------------------------------------------------------------|-----------|------------------------------------------------------------|
-| **City**               | The city associated with the record. This includes both modern and historical cities.                   | String    | "London"                                                   |
-| **Country**            | The country associated with the record. This can include ancient and modern countries.                  | String    | "United Kingdom"                                           |
-| **Date**               | The specific date related to the entry. This can represent significant dates in history or events.      | Date      | "2022-01-01"                                               |
-| **Coordinates**        | The geographical coordinates of the location.                                                           | String    | "Latitude: 51.5074, Longitude: -0.1278"                    |
-| **Historical Events**  | Key historical events associated with the location.                                                     | String    | "Battle of Rephidim"                                       |
-| **Cultural Significance** | The cultural or religious importance of the location.                                               | String    | "Importance in religious texts, pilgrimage site"           |
-| **Environmental Data** | Information about the environment and climate of the location.                                          | String    | "Desert terrain, arid climate"                             |
-| **Content**            | Additional content related to the record, which can include descriptions, narratives, etc.              | String    | "Rephidim is a historical site mentioned in the Bible."    |
-
-### Data Dictionary for People
-
-| Column Name            | Description                                          | Data Type | Example                       |
-|------------------------|------------------------------------------------------|-----------|-------------------------------|
-| **Full Name**          | The complete name of the individual                  | String    | "Ada Lovelace"                |
-| **Birth Date**         | The date of birth of the individual                  | Date      | "1815-12-10"                  |
-| **Nationality**        | The nationality or citizenship of the individual     | String    | "British"                     |
-| **Occupation**         | The primary occupation or profession                 | String    | "Mathematician, Writer"       |
-| **Notable Achievements** | Key accomplishments or contributions              | String    | "First computer programmer"   |
-| **Affiliations**       | Organizations the individual is associated with      | String    | "Analytical Society"          |
-| **Biography**          | A brief summary of the individual's life and career  | String    | "Pioneer in computing"        |
-| **Education**          | Educational background and qualifications            | String    | "Self-taught"                 |
-| **Awards and Honors**  | Any awards or recognitions received                  | String    | "None"                        |
-
-### Data Dictionary for Organizations
-
-| Column Name            | Description                                          | Data Type | Example                       |
-|------------------------|------------------------------------------------------|-----------|-------------------------------|
-| **Full Name**          | The complete name of the organization                | String    | "Microsoft Corporation"       |
-| **Founded Date**       | The date the organization was established            | Date      | "1975-04-04"                  |
-| **Headquarters**       | The location of the main office or headquarters      | String    | "Redmond, Washington, USA"    |
-| **Industry**           | The industry or sector the organization operates in  | String    | "Technology"                  |
-| **Key Personnel**      | Notable individuals associated with the organization | String    | "Bill Gates, Satya Nadella"   |
-| **Products/Services**  | The main products or services offered                | String    | "Software, Hardware, Services"|
-| **Mission Statement**  | The organization's mission or vision statement       | String    | "Empower every person and every organization on the planet to achieve more." |
-| **Revenue**            | Annual revenue or financial performance              | String    | "$168 billion (2021)"         |
-| **Subsidiaries**       | Any subsidiary companies or affiliated entities      | String    | "LinkedIn, GitHub"            |
-
-### Data Dictionary for the Combined Dataset
-
-| Column Name            | Description                                                                                             | Data Type | Example                                                    |
-|------------------------|---------------------------------------------------------------------------------------------------------|-----------|------------------------------------------------------------|
-| **City**               | The city associated with the record. This includes both modern and historical cities.                   | String    | "London"                                                   |
-| **Country**            | The country associated with the record. This can include ancient and modern countries.                  | String    | "United Kingdom"                                           |
-| **Date**               | The specific date related to the entry. This can represent significant dates in history or events.      | Date      | "2022-01-01"                                               |
-| **Organization**       | Organizations verified against Wikidata, which can include businesses, non-profits, and other entities. Enriched with additional attributes. | String    | "Microsoft Corporation: Full Name: Microsoft Corporation; Founded Date: 1975-04-04; Headquarters: Redmond, Washington, USA; Industry: Technology; Key Personnel: Bill Gates, Satya Nadella; Products/Services: Software, Hardware, Services; Mission Statement: Empower every person and every organization on the planet to achieve more.; Revenue: $168 billion (2021); Subsidiaries: LinkedIn, GitHub" |
-| **People**             | Individuals verified against Wikidata, which can include historical figures, politicians, etc. Enriched with additional attributes. | String    | "Ada Lovelace: Full Name: Ada Lovelace; Birth Date: 1815-12-10; Nationality: British; Occupation: Mathematician, Writer; Notable Achievements: First computer programmer; Affiliations: Analytical Society; Biography: Pioneer in computing; Education: Self-taught; Awards and Honors: None" |
-| **Year**               | The year the data was extracted or the year associated with the historical event.                       | Integer   | 2022                                                       |
-| **Link**               | URL link to the Wikipedia entry or other relevant web pages.                                            | String    | "[Wikipedia Entry](https://en.wikipedia.org/wiki/London)" |
-| **Coordinates**        | The geographical coordinates of the location.                                                           | String    | "Latitude: 51.5074, Longitude: -0.1278"                    |
-| **Historical Events**  | Key historical events associated with the location.                                                     | String    | "Battle of Rephidim"                                       |
-| **Cultural Significance** | The cultural or religious importance of the location.                                               | String    | "Importance in religious texts, pilgrimage site"           |
-| **Environmental Data** | Information about the environment and climate of the location.                                          | String    | "Desert terrain, arid climate"                             |
-| **Content**            | Additional content related to the record, which can include descriptions, narratives, etc.              | String    | "Rephidim is a historical site mentioned in the Bible."    |
-### Data Dictionary for Locations
-
-| Column Name            | Description                                                                                             | Data Type | Example                                                    |
-|------------------------|---------------------------------------------------------------------------------------------------------|-----------|------------------------------------------------------------|
-| **City**               | The city associated with the record. This includes both modern and historical cities.                   | String    | "London"                                                   |
-| **Country**            | The country associated with the record. This can include ancient and modern countries.                  | String    | "United Kingdom"                                           |
-| **Date**               | The specific date related to the entry. This can represent significant dates in history or events.      | Date      | "2022-01-01"                                               |
-| **Coordinates**        | The geographical coordinates of the location.                                                           | String    | "Latitude: 51.5074, Longitude: -0.1278"                    |
-| **Historical Events**  | Key historical events associated with the location.                                                     | String    | "Battle of Rephidim"                                       |
-| **Cultural Significance** | The cultural or religious importance of the location.                                               | String    | "Importance in religious texts, pilgrimage site"           |
-| **Environmental Data** | Information about the environment and climate of the location.                                          | String    | "Desert terrain, arid climate"                             |
-| **Content**            | Additional content related to the record, which can include descriptions, narratives, etc.              | String    | "Rephidim is a historical site mentioned in the Bible."    |
-
-### Data Dictionary for People
-
-| Column Name            | Description                                          | Data Type | Example                       |
-|------------------------|------------------------------------------------------|-----------|-------------------------------|
-| **Full Name**          | The complete name of the individual                  | String    | "Ada Lovelace"                |
-| **Birth Date**         | The date of birth of the individual                  | Date      | "1815-12-10"                  |
-| **Nationality**        | The nationality or citizenship of the individual     | String    | "British"                     |
-| **Occupation**         | The primary occupation or profession                 | String    | "Mathematician, Writer"       |
-| **Notable Achievements** | Key accomplishments or contributions              | String    | "First computer programmer"   |
-| **Affiliations**       | Organizations the individual is associated with      | String    | "Analytical Society"          |
-| **Biography**          | A brief summary of the individual's life and career  | String    | "Pioneer in computing"        |
-| **Education**          | Educational background and qualifications            | String    | "Self-taught"                 |
-| **Awards and Honors**  | Any awards or recognitions received                  | String    | "None"                        |
-
-### Data Dictionary for Organizations
-
-| Column Name            | Description                                          | Data Type | Example                       |
-|------------------------|------------------------------------------------------|-----------|-------------------------------|
-| **Full Name**          | The complete name of the organization                | String    | "Microsoft Corporation"       |
-| **Founded Date**       | The date the organization was established            | Date      | "1975-04-04"                  |
-| **Headquarters**       | The location of the main office or headquarters      | String    | "Redmond, Washington, USA"    |
-| **Industry**           | The industry or sector the organization operates in  | String    | "Technology"                  |
-| **Key Personnel**      | Notable individuals associated with the organization | String    | "Bill Gates, Satya Nadella"   |
-| **Products/Services**  | The main products or services offered                | String    | "Software, Hardware, Services"|
-| **Mission Statement**  | The organization's mission or vision statement       | String    | "Empower every person and every organization on the planet to achieve more." |
-| **Revenue**            | Annual revenue or financial performance              | String    | "$168 billion (2021)"         |
-| **Subsidiaries**       | Any subsidiary companies or affiliated entities      | String    | "LinkedIn, GitHub"            |
-
-### Data Dictionary for the Combined Dataset
-
-| Column Name            | Description                                                                                             | Data Type | Example                                                    |
-|------------------------|---------------------------------------------------------------------------------------------------------|-----------|------------------------------------------------------------|
-| **City**               | The city associated with the record. This includes both modern and historical cities.                   | String    | "London"                                                   |
-| **Country**            | The country associated with the record. This can include ancient and modern countries.                  | String    | "United Kingdom"                                           |                                |
-| **Organization**       | Organizations verified against Wikidata, which can include businesses, non-profits, and other entities. Enriched with additional attributes. | String    | "Microsoft Corporation: Full Name: Microsoft Corporation; Founded Date: 1975-04-04; Headquarters: Redmond, Washington, USA; Industry: Technology; Key Personnel: Bill Gates, Satya Nadella; Products/Services: Software, Hardware, Services; Mission Statement: Empower every person and every organization on the planet to achieve more.; Revenue: $168 billion (2021); Subsidiaries: LinkedIn, GitHub" |
-| **People**             | Individuals verified against Wikidata, which can include historical figures, politicians, etc. Enriched with additional attributes. | String    | "Ada Lovelace: Full Name: Ada Lovelace; Birth Date: 1815-12-10; Nationality: British; Occupation: Mathematician, Writer; Notable Achievements: First computer programmer; Affiliations: Analytical Society; Biography: Pioneer in computing; Education: Self-taught; Awards and Honors: None" |
-| **Year**               | The year the data was extracted or the year associated with the historical event.                       | Integer   | 2022                                                       |
-| **Link**               | URL link to the Wikipedia entry or other relevant web pages.                                            | String    | "[Wikipedia Entry](https://en.wikipedia.org/wiki/London)" |
-| **Coordinates**        | The geographical coordinates of the location.                                                           | String    | "Latitude: 51.5074, Longitude: -0.1278"                    |
-| **Historical Events**  | Key historical events associated with the location.                                                     | String    | "Battle of Rephidim"                                       |
-| **Cultural Significance** | The cultural or religious importance of the location.                                               | String    | "Importance in religious texts, pilgrimage site"           |
-| **Environmental Data** | Information about the environment and climate of the location.                                          | String    | "Desert terrain, arid climate"                             |
-| **Content**            | Additional content related to the record, which can include descriptions, narratives, etc.              | String    | "Rephidim is a historical site mentioned in the Bible."    |
+| Column Name          | Data Type | Description | Example |
+|----------------------|----------|-------------|---------|
+| City                | String   | Name of the city mentioned in the dataset. Used for geographic enrichment. | Nur-Sultan |
+| Country             | String   | Name of the country corresponding to the city. | Kazakhstan |
+| Title               | String   | Title of the article or entity extracted from the data source. | Polish Open (tennis) |
+| Link                | String   | URL to the original article or webpage. | [Polish Open](https://en.wikipedia.org/wiki/Polish_Open_(tennis)) |
+| Extracted Years     | String   | Years extracted from the content, representing historical references. | 2011, 2018 |
+| People              | String   | Names of people| Sarla Bedi, Sheetal |
+| Organization        | String   | Names of organizations mentioned, enriched with founding date, industry, headquarters, and key personnel. | BNP Paribas \| Founded: 1848 \| HQ: Paris \| Industry: Banking \| Key Personnel: Jean-Laurent Bonnafé |
+| Locations           | String    |Locations extracted from the content| Washington Gardens |
+| Coordinates         | String   | Latitude and longitude of the city, obtained from Wikidata or OpenStreetMap. | Latitude: 51.1282205, Longitude: 71.4306682 |
+| Wikipedia Summary   | String   | Brief Wikipedia summary of the city or topic for context enrichment. | Astana, formerly known as Nur-Sultan... (truncated) |
+| Wikipedia Link      | String   | Direct link to the Wikipedia page of the city or entity for further reference. | [Astana Wikipedia](https://en.wikipedia.org/wiki/Astana) |
 
 
 # Usage
